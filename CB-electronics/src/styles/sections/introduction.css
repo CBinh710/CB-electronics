@@ -124,7 +124,7 @@
 @media (max-width: 1000px) {
   .introduction-container {
     flex-direction: column-reverse;
-    gap: 82px;
+    gap: 0;
     align-items: center;
   }
 
@@ -152,7 +152,6 @@
 
   .illustrate-image {
     width: 412px;
-    height: 416px;
   }
 }
 

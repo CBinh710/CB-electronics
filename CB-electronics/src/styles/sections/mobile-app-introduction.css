@@ -5,6 +5,7 @@
 
 .introduction-app-container {
   width: 50%;
+  padding-top: 150px;
 }
 
 .introduction-app-heading {
@@ -36,23 +37,23 @@
 
 .mobile-introduction-illustration {
   width: 570px;
-  height: 570px;
 }
 
 /* Style for tablet and mobile screen*/
 @media (max-width: 768px) {
   .mobile-introduction-illustration {
     width: 365px;
-    height: 365px;
   }
 
   .introduction-app-container {
     width: 100%;
+    padding: 0;
   }
 
   .mobile-app-introduction-container {
     flex-direction: column-reverse;
     align-items: center;
     margin: 100px 0 167px 0;
+    gap: 0;
   }
 }

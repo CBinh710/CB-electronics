@@ -1,9 +1,9 @@
-# Practice One: Food Hut Design
+# Practice One: CB Electronic Design
 
 ## Overview
 
 - This document is for HTML/CSS Practice 1.
-- [Design](https://www.figma.com/design/Q0oRUMv9ESYXfsIZjJXJn8/Food-Hut-(-Food-Ordering-Responsive-Design)-(Community)?node-id=0-1)
+- [Design](https://www.figma.com/design/yvBPcO70tBEQkZyERkPfiN/Electronic-components?node-id=0-1&node-type=CANVAS&t=CojUaz3eBQIXyQwm-0)
 
 ## Timeline
 
