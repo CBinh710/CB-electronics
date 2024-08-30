@@ -1,0 +1,45 @@
+.special-offer-container {
+  margin-top: 146px;
+}
+
+.illustration-service-image {
+  width: 510px;
+  height: 562px;
+}
+
+.special-offer-heading {
+  font-size: var(--font-size-sub-header);
+  line-height: 1.3;
+  font-weight: 700;
+  text-align: center;
+}
+
+.special-offer-content {
+  font-size: var(--font-size-normal);
+  text-align: center;
+  padding: 0 200px;
+  margin: 29px 0;
+  line-height: 1.3;
+  opacity: 80%;
+}
+
+.special-offer-product-card {
+  gap: 11px;
+  flex-wrap: wrap;
+}
+
+/* Style for tablet and mobile screen under 768px */
+@media (max-width: 768px) {
+  .special-offer-container {
+    margin-top: 174px;
+    margin-bottom: 120px;
+  }
+
+  .special-offer-content + .between {
+    justify-content: center;
+  }
+
+  .special-offer-content {
+    padding: 0;
+  }
+}

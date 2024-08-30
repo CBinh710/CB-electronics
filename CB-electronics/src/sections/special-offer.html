@@ -1,0 +1,54 @@
+<section id="special-offer-section" class="special-offer-container">
+  <h2 class="special-offer-heading">Today <span class="primary-color">Special</span> Offers</h2>
+  <p class="special-offer-content">This is a great opportunity for you to own the necessary components for your project at a more attractive price than ever.</p>
+  <div class="special-offer-food-card flex between">
+    <include src="./components/food-card.html"
+    locals='{
+      "image": "./assets/images/raspberrypi4.png",
+      "name":"RASPBERRY PI 4",
+      "rating1": "./assets/images/rating-1.png",
+      "rating2": "./assets/images/rating-2.png",
+      "rating3": "./assets/images/rating-3.png",
+      "rating": "4.5",
+      "price":"10$",
+      "detail": "The Raspberry Pi 4 is a compact, affordable, and versatile single-board computer developed by the Raspberry Pi Foundation."
+    }'
+    ></include>
+    <include src="./components/food-card.html"
+    locals='{
+      "image": "./assets/images/raspberrypico.png",
+      "name":"RASPBERRY PICO",
+      "rating1": "./assets/images/rating-1.png",
+      "rating2": "./assets/images/rating-2.png",
+      "rating3": "./assets/images/rating-3.png",
+      "rating": "5.0",
+      "price":"10$",
+      "detail": "The Raspberry Pi Pico is a low-cost, high-performance microcontroller board designed by the Raspberry Pi Foundation."
+    }'
+    ></include>
+    <include src="./components/food-card.html"
+    locals='{
+      "image": "./assets/images/esp8266.png",
+      "name":"ESP8266",
+      "rating1": "./assets/images/rating-1.png",
+      "rating2": "./assets/images/rating-2.png",
+      "rating3": "./assets/images/rating-3.png",
+      "rating": "4.6",
+      "price":"10$",
+      "detail": "The ESP8266 is a low-cost Wi-Fi microchip with full TCP/IP stack and microcontroller capability, developed by Espressif Systems."
+    }'
+    ></include>
+    <include src="./components/food-card.html"
+    locals='{
+      "image": "./assets/images/esp32cam.png",
+      "name":"ESP32 CAM",
+      "rating1": "./assets/images/rating-1.png",
+      "rating2": "./assets/images/rating-2.png",
+      "rating3": "./assets/images/rating-3.png",
+      "rating": "4.7",
+      "price":"10$",
+      "detail": "a powerful and versatile microcontroller board combines the ESP32 microcontroller with a camera module."
+    }'
+    ></include>
+  </div>
+</section>
