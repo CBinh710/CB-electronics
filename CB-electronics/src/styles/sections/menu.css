@@ -30,9 +30,11 @@ input[type="checkbox"]:checked + .menu-button-label {
   border-radius: 100px;
   padding: 10px 20px;
   background-color: var(--color-primary);
+  opacity: 1;
 }
 
 .menu-tag {
+  justify-content: center;
   gap: 30px;
   margin-top: 25px;
   overflow-x: scroll;
@@ -40,15 +42,24 @@ input[type="checkbox"]:checked + .menu-button-label {
   font-weight: normal;
 }
 
+.menu-tag::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-tag::-webkit-scrollbar:hover {
+  cursor: pointer;
+}
+
 .list-product-card-container {
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 11px;
 }
 @media (max-width: 1150px) {
-  .menu-heading + .center {
+  .menu-tag {
     justify-content: flex-start;
-  }  
+  }
 }
 /* Style for tablet screen and mobile screen max width 768px */
 @media (max-width: 768px) {
@@ -62,7 +73,7 @@ input[type="checkbox"]:checked + .menu-button-label {
     margin: 5px;
   }
 
-  .menu-tag + .between {
+  .list-product-card-container {
     justify-content: center;
   }
 
@@ -71,7 +82,7 @@ input[type="checkbox"]:checked + .menu-button-label {
     padding: 10px 15px;
   }
 
-  .product-card-wrapper:nth-child(n+5) {
+  .food-card-wrapper:nth-child(n+5) {
     display: none;
   }
 }
