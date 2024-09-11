@@ -90,7 +90,7 @@
 
 .download-watch-video-wrapper {
   align-items: center;
-  margin-top: 9px; 
+  margin-top: 9px;
   gap: 9px;
 }
 
@@ -137,6 +137,10 @@
   .para-introduction {
     font-size: var(--font-size-xnormal);
     font-weight: 400;
+    max-width: 100%;
+  }
+
+  .search-box-container {
     max-width: 100%;
   }
 
